@@ -1,0 +1,5 @@
+[Defines]
+  DEC_SPECIFICATION              = 1.27
+  PACKAGE_NAME                   = DxeSmmHook
+  PACKAGE_GUID                   = 3f6e9013-4763-4f37-8010-3143c990c050
+  PACKAGE_VERSION                = 1.00

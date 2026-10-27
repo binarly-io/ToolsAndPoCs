@@ -1,4 +1,4 @@
-# BINARLY Research Tools and PoCs (UEFI)
+# OffensiveCon 2023
 
 Build Rust tools:
 

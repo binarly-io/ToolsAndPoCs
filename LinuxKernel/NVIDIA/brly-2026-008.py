@@ -152,9 +152,8 @@ def main():
             time.sleep(0.1)
         else:
             print("child deadlocked after 5s - API lock permanently leaked")
-            print("all GPU RM operations from all processes are blocked")
+            print("RM operations that require the global API lock are blocked")
             os.kill(pid, signal.SIGKILL)
-            os.waitpid(pid, 0)
 
     os.close(ctl_fd)
 
